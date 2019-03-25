@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CourseApp</string>
+    <string name="next">NEXT</string>
+    <string name="show_history">Show History</string>
+</resources>
