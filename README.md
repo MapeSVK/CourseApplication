@@ -1,5 +1,5 @@
 # CourseApplication
-## Android app providing option to rate courses at the university to give a feedback to the teacher. 
+## Android app providing an option to rate courses at the university and give a valuable feedback to the teacher. 
 
 _________________________
 INTRODUCTION:
