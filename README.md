@@ -1,14 +1,12 @@
 # CourseApplication
-Android App
+## Android app providing option to rate courses at the university to give a feedback to the teacher. 
 
 _________________________
 INTRODUCTION:
 
-Android app providing option to rate courses at the university to give a feedback to the teacher. 
-
 After the last button (send rating button) is clicked, a new object - rating is created based on the seek bar values, comment and an average. 
 
-The system saves the new rating to a database and the user is able to send an email with an average rating as a message.
+The system saves a new rating to a database and the user is able to send an email with an average rating as a message.
 
 _________________________
 UI DESIGN:
@@ -18,12 +16,12 @@ The app has a user-friendly design with seek bars, bigger buttons, nice colors, 
 _________________________
 CODE DESIGN:
 
-The app containes 2 activities which are connected with an intent. The app has one entity - Rating, which implements Parcelable for intent usage. 
+The app containes 2 activities which are connected with an intent. The app has one entity - Rating, which implements Parcelable for the intent usage. 
 
 _________________________
 DATABASE CONNECTION:
 
-The app is connected to a Firebase database and each rating (row) has its own unique key. The app also retrieves data so therefore user is able to see an average made from all of the ratings from a database, and also total amount of rating that were made.
+The app is connected to a Firebase database and each rating (row) has its own unique key. The app also retrieves data so the user is able to see an average made from all ratings.
 
 _________________________
 VALIDATION:
